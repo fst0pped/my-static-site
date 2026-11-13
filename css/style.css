@@ -1,0 +1,47 @@
+  .site-nav {
+    background: #1a1a1a; /* Dark, terminal-like background */
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for that "Data" feel */
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .status-indicator {
+    font-size: 0.8rem;
+    color: #00ff41; /* Matrix green */
+  }
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #00ff41;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    animation: blink 1.5s infinite;
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .nav-links a:hover, .nav-links a.active {
+    color: #00ff41;
+  }

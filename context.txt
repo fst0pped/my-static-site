@@ -1,0 +1,9 @@
+I am a data product manager creating a personal website using Jekyll on GitHub pages to showcase the following:
+
+- understanding of data pipelines and integrations
+- understanding of analytics and bi needs
+- understanding and ability around product management lifecycle
+- knowledge of strategic tools and techniques (e.g. lean canvas models, Wardley mapping)
+- curiosity and ability to pick up new skills (e.g. developing a personal portfolio in a product style with a local llm)
+
+The tone of the site should be lighthearted but relevant to work. I want to demonstrate that I am competent, but also a good team fit who doesn't take themselves too seriously.
